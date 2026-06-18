@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 services:
   - type: web
     name: user-backend
     env: java
     buildCommand: mvn clean package
     startCommand: java -jar target/*.jar
+=======
+services:
+  - type: web
+    name: user-backend
+    env: java
+    buildCommand: mvn clean package
+    startCommand: java -jar target/*.jar
+>>>>>>> Stashed changes
